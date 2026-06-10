@@ -3,13 +3,15 @@ SQL- HT-SIS-01-M-26-10495
 -- 1
 SELECT OrderDetailID, OrderID, ProductID, Quantity
 FROM OrderDetails
-WHERE Quantity > 15 AND ProductID > 10
+WHERE Quantity > 15 
+AND ProductID > 10
 ORDER BY OrderDetailID;
 
 -- 2
 SELECT OrderDetailID, OrderID, ProductID, Quantity
 FROM OrderDetails
-WHERE OrderID < 100 AND Quantity > 20
+WHERE OrderID < 100 
+AND Quantity > 20
 ORDER BY ProductID;
 
 -- 3
